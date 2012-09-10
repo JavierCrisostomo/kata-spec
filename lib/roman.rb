@@ -6,6 +6,8 @@ class Roman
 			return "IV"
 		elsif number == 5
 			return "V"
+		elsif number == 6
+			return "VI"
 		end
 	end
 end
