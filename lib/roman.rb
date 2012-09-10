@@ -8,6 +8,8 @@ class Roman
 			return "V" + "I"*(number-5)
 		elsif number == 9
 			return "IX"
+		elsif number == 10
+			return "X"
 		end
 	end
 end
