@@ -12,6 +12,8 @@ class Roman
 			return "X"
 		elsif number == 11
 			return "XI"
+		elsif number == 12
+			return "XII"
 		end
 	end
 end
