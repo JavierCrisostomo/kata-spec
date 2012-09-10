@@ -12,12 +12,8 @@ class Roman
 			return "X" + "I"*(number-10)
 		elsif number == 14
 			return "XIV"
-		elsif number == 15
-			return "XV"
-		elsif number == 16
-			return "XVI"
-		elsif number == 17
-			return "XVII"
+		elsif number >= 15 and number <= 18
+			return "XV" + "I"*(number-15)
 		end
 	end
 end
