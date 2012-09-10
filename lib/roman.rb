@@ -14,6 +14,8 @@ class Roman
 			return "XIV"
 		elsif number >= 15 and number <= 18
 			return "XV" + "I"*(number-15)
+		elsif number == 19
+			return "XIX"
 		end
 	end
 end
