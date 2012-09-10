@@ -16,6 +16,8 @@ class Roman
 			return "XV" + "I"*(number-15)
 		elsif number == 19
 			return "XIX"
+		elsif number == 20
+			return "XX"
 		end
 	end
 end
