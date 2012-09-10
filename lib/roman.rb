@@ -10,6 +10,8 @@ class Roman
 			return "IX"
 		elsif number >= 10 and number <=13 
 			return "X" + "I"*(number-10)
+		elsif number == 14
+			return "XIV"
 		end
 	end
 end
