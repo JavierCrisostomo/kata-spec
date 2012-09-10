@@ -1,9 +1,7 @@
 class Roman
 	def convert(number)
-		if number == 1
-			return "I"
-		elsif number == 2
-			return "II"
+		if number >= 1
+			return "I"*number
 		end
 	end
 end
