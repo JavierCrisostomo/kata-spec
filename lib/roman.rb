@@ -4,12 +4,8 @@ class Roman
 			return "I"*number
 		elsif number == 4
 			return "IV"
-		elsif number == 5
-			return "V"
-		elsif number == 6
-			return "VI"
-		elsif number == 7
-			return "VII"
+		elsif number >= 5 and number <= 8
+			return "V" + "I"*(number-5)
 		end
 	end
 end
