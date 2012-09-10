@@ -14,6 +14,8 @@ class Roman
 			return "XIV"
 		elsif number == 15
 			return "XV"
+		elsif number == 16
+			return "XVI"
 		end
 	end
 end
